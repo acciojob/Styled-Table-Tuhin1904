@@ -1,1 +1,22 @@
-/* your code */
+table{
+	border-radius:8px;
+}
+table thead{
+	background-color: royalblue;
+}
+tr th{
+	padding:10px;
+	color:white
+}
+tbody tr:nth-child(even){
+	background-color:lightgray
+}
+td{
+	padding:8px
+}
+tr th{
+	width: 100px;
+}
+tr th:first-child{
+	width: 150px
+}
